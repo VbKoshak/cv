@@ -1,165 +1,157 @@
 body {
-  width: 1024px;
-  margin: 0 auto;
- background-image: url(http://ges-design.ru/library/collage/background/me/background-15-21.jpg);
- font-family: 'K2D', sans-serif;
+    width: 1024px;
+    margin: 0 auto;
+    background-image: url(http://ges-design.ru/library/collage/background/me/background-15-21.jpg);
+    font-family: 'K2D', sans-serif;
 }
 
-header{
-    position:fixed;
-    width:1024px;
+header {
+    position: fixed;
+    width: 1024px;
     z-index: 1;
 }
 
-div.pass{
-    background: linear-gradient(to bottom, rgba(241,236,233,1) 0%, rgba(184,204,198,1) 100%);
+div.pass {
+    background: linear-gradient(to bottom, rgba(241, 236, 233, 1) 0%, rgba(184, 204, 198, 1) 100%);
     border-radius: 10px;
-    position:relative;
+    position: relative;
     top: 40px;
     margin-top: 30px;
     padding: 10px;
     height: 350px;
-
-    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.59);
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.59);
 }
 
-div.photo
-{
+div.photo {
     margin: 10px;
-    display:inline;
+    display: inline;
 }
 
-.photo img{
+.photo img {
     width: 327.2px;
     height: 327.2px;
     border: 0px;
     border-radius: 50%;
     padding: 10px;
-    float:left;
-    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.59);
+    float: left;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.59);
 }
 
-h1.logo{
+h1.logo {
     font-style: italic;
 }
 
-.info td{
+.info td {
     padding: 20px;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.info table{
+.info table {
     margin: 10px;
     padding-left: 40px;
 }
 
-.row
-{
+.row {
     position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 64px;
-background-color: #b49d8b;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #b49d8b;
     font-size: 1.5em;
 }
 
-.logo
-{
+.logo {
     display: inline;
     padding-right: 150px;
     padding-left: 10px;
     border-right: 2px solid black;
 }
 
-.navigation
-{
+.navigation {
     display: inline;
     margin: 80px;
-    height:auto;
+    height: auto;
 }
 
-.navigation a
-{
-    display:inline;
+.navigation a {
+    display: inline;
     padding: 30px;
     width: 120px;
 }
 
-.skills h2{
+.skills h2 {
     margin-top: 5px;
     margin-bottom: 0px;
 }
 
-div.skills{
-    //background-color: rgba(0, 170, 183, 1);
-    background: linear-gradient(to bottom,rgba(184,204,198,1) 0%, rgba(0,171,183,1) 100%);
-    position:relative;
+div.skills {
+    background: linear-gradient(to bottom, rgba(184, 204, 198, 1) 0%, rgba(0, 171, 183, 1) 100%);
+    position: relative;
     border-radius: 10px;
     top: 40px;
     margin: 30px 0px;
     padding: 10px;
-    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.59);
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.59);
 }
 
-ul.s2{
+ul.s2 {
     padding-top: 0px;
     padding-bottom: 10px;
 }
 
-ul.s3{
+ul.s3 {
     background-color: rgba(184, 204, 198, 1);
     border-radius: 5px;
 }
 
-div.sum{
-    height:auto;
+div.sum {
+    height: auto;
     position: relative;
     top: 40px;
-    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.59);
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.59);
 }
 
-div.sum{
+div.sum {
     padding: 0px 10px;
     border-radius: 10px;
-    //background-color: rgba(0, 61, 96, 1);
-    background: linear-gradient(to bottom, rgba(0,171,183,1) 0%, rgba(0,61,96,1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 171, 183, 1) 0%, rgba(0, 61, 96, 1) 100%);
 }
 
-h2.center{
+h2.center {
     text-align: center;
     margin: 0;
 }
 
-p{
+p {
     white-space: pre-wrap;
     margin-top: 0px;
 }
 
-.foot{
+.foot {
     height: auto;
     position: relative;
-    background: linear-gradient(to bottom, rgba(0,61,96,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 61, 96, 1) 0%, rgba(0, 0, 0, 1) 100%);
     /* color: white; */
     top: 70px;
 }
 
 .foot a {
-    margin:20px;
+    margin: 20px;
 }
 
-.anchor{
+.anchor {
     //display:none;
-    position:relative;
-    top:-200px;
+    position: relative;
+    top: -200px;
 }
 
-.foot a{
+.foot a {
     color: cyan;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
     text-shadow: 2px 0px 15px rgba(0, 0, 0, 1);
