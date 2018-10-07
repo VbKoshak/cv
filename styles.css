@@ -1,7 +1,8 @@
 body {
   width: 1024px;
   margin: 0 auto;
- background-color: rgba(123, 71, 237, 0.63);
+ background-image: url(http://ges-design.ru/library/collage/background/me/background-15-21.jpg);
+
 }
 
 header{
@@ -11,30 +12,55 @@ header{
 }
 
 div.pass{
-    background-color: cyan;
+    background-color: rgba(2, 120, 130, 0.3);
+    border-radius: 10px;
     position:relative;
-    top: 60px;
+    top: 40px;
     margin-top: 30px;
     mergin-bot:30px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    height: 350px;
+
 }
 
 div.photo
 {
+    margin: 10px;
     display:inline;
+
 }
 
-div.info{
-    display: inline;
+.photo img{
+    width: 327.2px;
+    height: 327.2px;
+    border: 0px;
+    border-radius: 50%;
+    padding: 10px;
+    float:left;
+
+}
+
+.info td{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info table{
+    left: 20px;
+    margin: 10px;
+    padding-left: 40px;
 }
 
 .row
 {
-    display: block;
-    width: 100%;
-    background-color: rgb(179, 139, 22);
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 54px;
+background-color: rgb(179, 139, 22);
     font-size: 1.5em;
-    height: 54px;
 }
 
 .logo
@@ -62,7 +88,7 @@ div.info{
 div.skills{
     background-color: red;
     position:relative;
-    top: 60px;
+    top: 40px;
     margin-top: 30px;
     mergin-bot:30px;
     padding-bottom: 20px;
@@ -99,4 +125,8 @@ p{
     background-color: black;
     color: white;
     top: 70px;
+}
+
+.foot a {
+    margin:20px;
 }
