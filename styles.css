@@ -1,19 +1,38 @@
 body {
   width: 1024px;
-  align-items: center;
+  margin: 0 auto;
+ background-color: rgba(123, 71, 237, 0.63);
 }
 
 header{
     position:fixed;
     width:1024px;
+    z-index: 1;
+}
+
+div.pass{
+    background-color: cyan;
+    position:relative;
+    top: 60px;
+    margin-top: 30px;
+    mergin-bot:30px;
+    padding-bottom: 20px;
+}
+
+div.photo
+{
+    display:inline;
+}
+
+div.info{
+    display: inline;
 }
 
 .row
 {
     display: block;
-    height: 100%;
     width: 100%;
-    background-color: rgba(179, 139, 22, 0.75);
+    background-color: rgb(179, 139, 22);
     font-size: 1.5em;
     height: 54px;
 }
@@ -30,6 +49,7 @@ header{
 {
     display: inline;
     margin: 80px;
+    height:auto;
 }
 
 .navigation a
@@ -37,4 +57,46 @@ header{
     display:inline;
     padding: 30px;
     width: 120px;
+}
+
+div.skills{
+    background-color: red;
+    position:relative;
+    top: 60px;
+    margin-top: 30px;
+    mergin-bot:30px;
+    padding-bottom: 20px;
+}
+
+ul.eng{
+    background-color: yellow;
+}
+
+ul.s2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+}
+
+div.sum{
+    height:auto;
+    background-color:green;
+    position: relative;
+    top: 70px;
+}
+
+h2.center{
+    text-align: center;
+}
+
+p{
+    white-space: pre-wrap;
+}
+
+.foot{
+    height: auto;
+    position: relative;
+    background-color: black;
+    color: white;
+    top: 70px;
 }
