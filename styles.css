@@ -152,6 +152,12 @@ p{
     top:-200px;
 }
 
-a{
+.foot a{
     color: cyan;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 2px 0px 15px rgba(0, 0, 0, 1);
 }
