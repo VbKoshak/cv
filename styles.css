@@ -145,3 +145,13 @@ p{
 .foot a {
     margin:20px;
 }
+
+.anchor{
+    //display:none;
+    position:relative;
+    top:-200px;
+}
+
+a{
+    color: cyan;
+}
